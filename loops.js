@@ -2,13 +2,14 @@ function forLoop(myArray) {
   for (var i = 1; i <= 25; i++) {
     myArray.push('hello')
   }
+  return myArray
 }
 
 function whileLoop(n) {
   while ( n >= 0 ) {
     console.log(n--)
   }
-  console.log('done')
+  return 'done'
 }
 
 function maybeTrue() {
@@ -19,4 +20,5 @@ function doWhileLoop(myArray) {
   do {
     myArray.pop()
   } while ( myArray.length > 0 && maybeTrue() )
+  return myArray
 }
