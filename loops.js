@@ -1,3 +1,9 @@
+function forLoop(myArray) {
+  for (var i = 1; i <= 25; i++) {
+    myArray.push('hello')
+  }
+}
+
 function whileLoop(n) {
   while ( n >= 0 ) {
     console.log(n--)
